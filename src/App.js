@@ -12,6 +12,7 @@ function App() {
        <NavBar />
         <Switch>
           <Route exact path = '/' component={PathfindingVisualizer} />
+
           <Route exact path = '/sortingvisualizer' component={SortingVisualizer} />
         </Switch>
       </BrowserRouter>
